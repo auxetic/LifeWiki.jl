@@ -5,14 +5,14 @@ makedocs(;
     modules=[LifeWiki],
     authors="liuxu",
     repo="https://github.com/auxetic/LifeWiki.jl/blob/{commit}{path}#L{line}",
-    sitename="LifeWiki.jl",
+    sitename="Wiki of Life",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
         canonical="https://auxetic.github.io/LifeWiki.jl",
         assets=String[],
     ),
     pages=[
-        "Home" => "index.md",
+        "首页" => "index.md",
     ],
 )
 
