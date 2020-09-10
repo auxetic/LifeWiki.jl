@@ -13,6 +13,7 @@ makedocs(;
     ),
     pages=[
         "首页" => "index.md",
+        "19"   => "19.md",
     ],
 )
 
